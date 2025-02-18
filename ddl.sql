@@ -51,6 +51,10 @@ CREATE TABLE tipo_logadouro (
     descricao_log VARCHAR(50) NOT NULL
 );
 
+ALTER TABLE tipo_logadouro
+    ADD CONSTRAINT fk_tipo_logadouro FOREIGN KEY ( id_endereco )
+        REFERENCES endereco ( id_endereco );
+
 CREATE TABLE cliente (
     id_cliente         NUMBER PRIMARY KEY,
     nome               VARCHAR(50) NOT NULL,
@@ -63,7 +67,15 @@ CREATE TABLE tipo_cliente (
     descricao_tipo  VARCHAR(50) NOT NULL
 );
 
+ALTER TABLE tipo_cliente
+    ADD CONSTRAINT fk_tipo_cliente FOREIGN KEY ( id_cliente )
+        REFERENCES cliente ( id_cliente );
+
 CREATE TABLE genero (
     id_genero        NUMBER PRIMARY KEY,
     descricao_genero VARCHAR(30) NOT NULL
 );
+
+ALTER TABLE genero
+    ADD CONSTRAINT fk_genero FOREIGN KEY ( id_cliente )
+        REFERENCES cliente ( id_cliente );
