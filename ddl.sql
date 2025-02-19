@@ -79,3 +79,37 @@ CREATE TABLE genero (
 ALTER TABLE genero
     ADD CONSTRAINT fk_genero FOREIGN KEY ( id_cliente )
         REFERENCES cliente ( id_cliente );
+
+####
+
+CREATE TABLE pedido (
+    cod_pedido      NUMBER PRIMARY KEY,
+    data            DATE NOT NULL,
+);
+
+CREATE TABLE funcionario (
+    cod_funcionario       NUMBER PRIMARY KEY,
+    nome                  VARCHAR(30) NOT NULL,
+    data_cadastro         DATE NOT NULL
+);
+
+CREATE TABLE cargo (
+    cod_cargo       NUMBER PRIMARY KEY,
+    nome            VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE item_pedido (
+    quantidade       NUMBER NOT NULL,
+    valor_unitario   NUMBER NOT NULL,
+    valor_total      NUMBER NOT NULL
+);
+
+CREATE TABLE produto (
+    cod_produto      NUMBER PRIMARY KEY,
+    descricao        VARCHAR(50) NOT NULL,
+);
+
+CREATE TABLE tipo (
+    cod_tipo      NUMBER PRIMARY KEY,
+    descricao     VARCHAR(50) NOT NULL,
+);
