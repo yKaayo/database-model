@@ -187,12 +187,6 @@ INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Rio Branco', 11); COMMIT;
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Boa Vista', 11); COMMIT;
 
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Faro', 32); COMMIT;
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Albufeira', 32); COMMIT;
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Lagos', 32); COMMIT;
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Portimão', 32); COMMIT;
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Tavira', 32); COMMIT;
-
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Lisboa', 13); COMMIT;
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Sintra', 13); COMMIT;
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Cascais', 13); COMMIT;
@@ -205,7 +199,47 @@ INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Sabugal', 14); COMMIT;
 INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Guarda', 14); COMMIT;
 
-INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Almeida', 15); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Vila Real', 15); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Chaves', 15); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Valpaços', 15); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Régua', 15); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Sabrosa', 15); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Porto', 16); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Maia', 16); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Gondomar', 16); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Matosinhos', 16); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Vila Nova de Gaia', 16); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Safi', 17); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'El Jadida', 17); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Oualidia', 17); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Essaouira', 17); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Youssoufia', 17); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Agadir', 18); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Taroudant', 18); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Tiznit', 18); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Ait Melloul', 18); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Biougra', 18); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Kyzyl', 22); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Ak-Dovurak', 22); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Chadan', 22); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Shagonar', 22); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Turan', 22); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Abakan', 23); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Chernogorsk', 23); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Sayanogorsk', 23); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Abaza', 23); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Sorsk', 23); COMMIT;
+
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Faro', 32); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Albufeira', 32); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Lagos', 32); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Portimão', 32); COMMIT;
+INSERT INTO cidade (id_cidade, nome_cidade, id_cidade) VALUES (so_modelo_pedido.nextval, 'Tavira', 32); COMMIT;
 
 SELECT * FROM cidade;
 
